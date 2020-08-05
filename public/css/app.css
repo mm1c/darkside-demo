@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(45 45 45);
+  color: #bdbdbd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#stream-container {
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+
+.profile-pic-holder {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.adjust-video {
+  width: 100%;
+  height: calc(100vh - 50px);
+  max-height: calc(100vh - 50px);
+}
+
+.adjust-pic {
+  max-height: calc(100vh - 50px);
+}
+
+/* .video-js {
+  height: 100% !important;
+} */
+
+.model-details {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+#model-info {
+  margin: 0 0 5px 10px;
+  font-size: 1.1rem;
+}
+
